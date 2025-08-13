@@ -1,0 +1,42 @@
+**Notes**
+
+* Understand the requirements.  
+* Generates the Documents for Requirements and List of tasks  
+* Design the API and database schema.  
+* Write the code for endpoints and business logic.  
+* Implement validation and error handling.  
+* Integrate with necessary libraries/tools.  
+* Write and run basic tests.  
+* Generate basic API documentation/Redame.  
+* Please implement pre-commit hooks like linter, Prettier
+
+---
+
+## **1\. User Management System with Role-Based Access  (estimated Time 3-5 days (frameworks like Laravel make this very quick))**
+
+* **Definition:** Build a secure system to manage user accounts, including registration, login, profile updates, and the ability to assign different roles (e.g., 'admin', 'editor', 'user') to control access to specific functionalities. This involves a database for user data and a mechanism for authentication and authorization.  
+* **Endpoints to Implement:**  
+  * POST /api/users/register (Create User): Allows new users to sign up.  
+    * **Validation:** Email format, unique email, strong password policy (min length, special chars, numbers).  
+  * POST /api/users/login (Read User for Auth): Authenticates a user and issues an access token.  
+    * **Validation:** Correct credentials, rate limiting on failed attempts.  
+  * GET /api/users/{id} (Read User Profile): Retrieves a specific user's public profile data (requires authentication).  
+    * **Validation:** id is a valid identifier, user has permission to view.  
+  * PUT /api/users/{id} (Update User Profile): Allows a user to update their own profile details (e.g., name, non-sensitive info) or an admin to update any user's role.  
+    * **Validation:** id exists, user has permission to update, data integrity for fields.  
+  * DELETE /api/users/{id} (Delete User): Deletes a user account. Requires admin privileges.  
+    * **Validation:** id exists, user has admin permission.  
+  * GET /api/roles (Read Roles): Lists available roles.  
+  * PUT /api/users/{id}/assign-role (Update User Role \- Admin Only): Assigns a specific role to a user.  
+    * **Validation:** id exists, role is valid, current user is admin.  
+* **Expected Output:** A secure and functional user management API where users can interact with their accounts and administrators can manage user roles and data.  
+* **Checklist to Follow:**  
+  * \[ \] **Database Schema:** Design tables for users (id, email, password\_hash, role\_id, created\_at, updated\_at) and roles (id, name, description).  
+  * \[ \] **Password Hashing:** Use a strong, one-way hashing algorithm like bcrypt for passwords.  
+  * \[ \] **Authentication:** Implement JWT (JSON Web Tokens) or session-based authentication.  
+  * \[ \] **Authorization (Role-Based Access Control):** Implement middleware or decorators to restrict access to endpoints based on user roles.  
+  * \[ \] **Input Validation:** Perform server-side validation for all incoming data (e.g., email format, password strength, valid role names).  
+  * \[ \] **Error Handling:** Return meaningful error messages and appropriate HTTP status codes (e.g., 200, 201, 400, 401, 403, 404, 409).  
+  * \[ \] **Sensitive Data Protection:** Ensure no sensitive data (like plain passwords) is exposed in responses or logs.  
+  * \[ \] **Rate Limiting:** Implement rate limiting on login attempts to prevent brute-force attacks.  
+  * \[ \] **Logging:** Log successful and failed login attempts, as well as critical errors.
