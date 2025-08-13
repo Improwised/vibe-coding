@@ -1,0 +1,346 @@
+{"level":"info","message":"Server started on port 3000","service":"user-management-system","timestamp":"2025-08-13T11:02:58.191Z"}
+{"level":"info","message":"Server started on port 3000","service":"user-management-system","timestamp":"2025-08-13T11:05:07.798Z"}
+{"ip":"::1","level":"warn","message":"Access attempt without token","path":"/","service":"user-management-system","timestamp":"2025-08-13T11:07:30.066Z"}
+{"ip":"::1","level":"warn","message":"Access attempt without token","path":"/register","service":"user-management-system","timestamp":"2025-08-13T11:08:39.565Z"}
+{"ip":"::1","level":"warn","message":"Access attempt without token","path":"/register","service":"user-management-system","timestamp":"2025-08-13T11:10:33.731Z"}
+{"email":"johndeo@exmaple.com","ip":"::1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:12:43.172Z","userId":1}
+{"error":"jwt malformed","ip":"::1","level":"error","message":"Token verification failed","service":"user-management-system","timestamp":"2025-08-13T11:13:52.610Z"}
+{"ip":"::1","level":"warn","message":"Unauthorized access attempt","path":"/","requiredRoles":["admin"],"service":"user-management-system","timestamp":"2025-08-13T11:14:01.225Z","userId":1,"userRole":"user"}
+{"email":"admin@example.com","ip":"::1","level":"warn","message":"Login attempt with non-existent email","service":"user-management-system","timestamp":"2025-08-13T11:16:43.849Z"}
+{"email":"admin@example.com","ip":"::1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:18:00.086Z","userId":2}
+{"assignedBy":2,"ip":"::1","level":"info","message":"Role assigned to user","roleId":2,"service":"user-management-system","timestamp":"2025-08-13T11:20:25.945Z","userId":1}
+{"email":"rajeshagarwal@exmaple.com","ip":"::1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:21:35.349Z","userId":3}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:28:03.610Z","userId":4}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Registration attempt with existing email","service":"user-management-system","timestamp":"2025-08-13T11:28:03.662Z"}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:28:03.770Z","userId":4}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with invalid password","service":"user-management-system","timestamp":"2025-08-13T11:28:03.879Z","userId":4}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Access attempt without token","path":"/4","service":"user-management-system","timestamp":"2025-08-13T11:28:03.914Z"}
+{"changes":{"name":"Updated Name"},"ip":"::ffff:127.0.0.1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T11:28:03.955Z","updatedBy":4,"userId":4}
+{"email":"admin@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Registration attempt with existing email","service":"user-management-system","timestamp":"2025-08-13T11:28:03.975Z"}
+{"email":"admin@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:28:04.082Z","userId":2}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Unauthorized access attempt","path":"/4/assign-role","requiredRoles":["admin"],"service":"user-management-system","timestamp":"2025-08-13T11:28:04.132Z","userId":4,"userRole":"user"}
+{"email":"todelete@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:28:04.248Z","userId":5}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Unauthorized access attempt","path":"/5","requiredRoles":["admin"],"service":"user-management-system","timestamp":"2025-08-13T11:28:04.260Z","userId":4,"userRole":"user"}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Registration attempt with existing email","service":"user-management-system","timestamp":"2025-08-13T11:30:55.006Z"}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Registration attempt with existing email","service":"user-management-system","timestamp":"2025-08-13T11:30:55.060Z"}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:30:55.171Z","userId":4}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with invalid password","service":"user-management-system","timestamp":"2025-08-13T11:30:55.281Z","userId":4}
+{"error":"jwt malformed","ip":"::ffff:127.0.0.1","level":"error","message":"Token verification failed","service":"user-management-system","timestamp":"2025-08-13T11:30:55.298Z"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Access attempt without token","path":"/undefined","service":"user-management-system","timestamp":"2025-08-13T11:30:55.322Z"}
+{"error":"jwt malformed","ip":"::ffff:127.0.0.1","level":"error","message":"Token verification failed","service":"user-management-system","timestamp":"2025-08-13T11:30:55.341Z"}
+{"error":"jwt malformed","ip":"::ffff:127.0.0.1","level":"error","message":"Token verification failed","service":"user-management-system","timestamp":"2025-08-13T11:30:55.460Z"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Unauthorized access attempt","path":"/undefined/assign-role","requiredRoles":["admin"],"service":"user-management-system","timestamp":"2025-08-13T11:30:55.488Z","userId":4,"userRole":"user"}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:49.977Z","userId":6}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:50.144Z","userId":7}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Registration attempt with existing email","service":"user-management-system","timestamp":"2025-08-13T11:34:50.159Z"}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:50.283Z","userId":8}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:50.392Z","userId":8}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:50.514Z","userId":9}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with invalid password","service":"user-management-system","timestamp":"2025-08-13T11:34:50.596Z","userId":9}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:50.663Z","userId":10}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:50.736Z","userId":11}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Access attempt without token","path":"/11","service":"user-management-system","timestamp":"2025-08-13T11:34:50.743Z"}
+{"email":"updatetest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:50.809Z","userId":12}
+{"changes":{"name":"Updated Name"},"ip":"::ffff:127.0.0.1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T11:34:50.823Z","updatedBy":12,"userId":12}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:50.929Z","userId":13}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:50.986Z","userId":14}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:51.099Z","userId":15}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:51.155Z","userId":16}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:51.274Z","userId":17}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:51.329Z","userId":18}
+{"assignedBy":17,"ip":"::ffff:127.0.0.1","level":"info","message":"Role assigned to user","roleId":2,"service":"user-management-system","timestamp":"2025-08-13T11:34:51.346Z","userId":18}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded for login attempts","service":"user-management-system","timestamp":"2025-08-13T11:34:51.405Z"}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:51.462Z","userId":20}
+{"email":"todelete@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:34:51.518Z","userId":21}
+{"error":"jwt malformed","ip":"::ffff:127.0.0.1","level":"error","message":"Token verification failed","service":"user-management-system","timestamp":"2025-08-13T11:34:51.524Z"}
+{"level":"info","message":"Server started on port 3000","service":"user-management-system","timestamp":"2025-08-13T11:36:07.001Z"}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:12.519Z","userId":22}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:12.701Z","userId":23}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Registration attempt with existing email","service":"user-management-system","timestamp":"2025-08-13T11:36:12.722Z"}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:12.859Z","userId":24}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:12.977Z","userId":24}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:13.105Z","userId":25}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with invalid password","service":"user-management-system","timestamp":"2025-08-13T11:36:13.210Z","userId":25}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:13.341Z","userId":26}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:13.462Z","userId":27}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Access attempt without token","path":"/27","service":"user-management-system","timestamp":"2025-08-13T11:36:13.472Z"}
+{"email":"updatetest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:13.539Z","userId":28}
+{"changes":{"name":"Updated Name"},"ip":"::ffff:127.0.0.1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T11:36:13.556Z","updatedBy":28,"userId":28}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:13.661Z","userId":29}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:13.717Z","userId":30}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:13.826Z","userId":31}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:13.883Z","userId":32}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:13.994Z","userId":33}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:14.049Z","userId":34}
+{"assignedBy":33,"ip":"::ffff:127.0.0.1","level":"info","message":"Role assigned to user","roleId":2,"service":"user-management-system","timestamp":"2025-08-13T11:36:14.064Z","userId":34}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded for login attempts","service":"user-management-system","timestamp":"2025-08-13T11:36:14.123Z"}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:14.177Z","userId":36}
+{"email":"todelete@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:36:14.232Z","userId":37}
+{"error":"jwt malformed","ip":"::ffff:127.0.0.1","level":"error","message":"Token verification failed","service":"user-management-system","timestamp":"2025-08-13T11:36:14.239Z"}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:00.778Z","userId":38}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:00.959Z","userId":39}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Registration attempt with existing email","service":"user-management-system","timestamp":"2025-08-13T11:39:00.976Z"}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:01.098Z","userId":40}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:01.215Z","userId":40}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:01.338Z","userId":41}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with invalid password","service":"user-management-system","timestamp":"2025-08-13T11:39:01.444Z","userId":41}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:01.569Z","userId":42}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:01.707Z","userId":43}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Access attempt without token","path":"/43","service":"user-management-system","timestamp":"2025-08-13T11:39:01.719Z"}
+{"email":"updatetest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:01.795Z","userId":44}
+{"changes":{"name":"Updated Name"},"ip":"::ffff:127.0.0.1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T11:39:01.811Z","updatedBy":44,"userId":44}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:01.915Z","userId":45}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:01.970Z","userId":46}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:02.079Z","userId":47}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:02.148Z","userId":48}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:02.280Z","userId":49}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:02.347Z","userId":50}
+{"assignedBy":49,"ip":"::ffff:127.0.0.1","level":"info","message":"Role assigned to user","roleId":2,"service":"user-management-system","timestamp":"2025-08-13T11:39:02.373Z","userId":50}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded for login attempts","service":"user-management-system","timestamp":"2025-08-13T11:39:02.456Z"}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:02.522Z","userId":52}
+{"email":"todelete@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:39:02.590Z","userId":53}
+{"error":"jwt malformed","ip":"::ffff:127.0.0.1","level":"error","message":"Token verification failed","service":"user-management-system","timestamp":"2025-08-13T11:39:02.597Z"}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:19.846Z","userId":54}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:20.003Z","userId":55}
+{"email":"todelete@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:20.139Z","userId":56}
+{"deletedBy":54,"ip":"::ffff:127.0.0.1","level":"info","message":"User deleted","service":"user-management-system","timestamp":"2025-08-13T11:40:20.175Z","userId":56}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:39.739Z","userId":57}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:39.940Z","userId":58}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Registration attempt with existing email","service":"user-management-system","timestamp":"2025-08-13T11:40:39.964Z"}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:40.107Z","userId":59}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:40.173Z","userId":59}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:40.261Z","userId":60}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with invalid password","service":"user-management-system","timestamp":"2025-08-13T11:40:40.311Z","userId":60}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:40.399Z","userId":61}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:40.495Z","userId":62}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Access attempt without token","path":"/62","service":"user-management-system","timestamp":"2025-08-13T11:40:40.505Z"}
+{"email":"updatetest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:40.596Z","userId":63}
+{"changes":{"name":"Updated Name"},"ip":"::ffff:127.0.0.1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T11:40:40.622Z","updatedBy":63,"userId":63}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:40.750Z","userId":64}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:40.819Z","userId":65}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:40.952Z","userId":66}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:41.019Z","userId":67}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:41.153Z","userId":68}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:41.221Z","userId":69}
+{"assignedBy":68,"ip":"::ffff:127.0.0.1","level":"info","message":"Role assigned to user","roleId":2,"service":"user-management-system","timestamp":"2025-08-13T11:40:41.248Z","userId":69}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded for login attempts","service":"user-management-system","timestamp":"2025-08-13T11:40:41.330Z"}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:41.398Z","userId":71}
+{"email":"todelete@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:40:41.466Z","userId":72}
+{"error":"jwt malformed","ip":"::ffff:127.0.0.1","level":"error","message":"Token verification failed","service":"user-management-system","timestamp":"2025-08-13T11:40:41.473Z"}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:29.913Z","userId":73}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:30.118Z","userId":74}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Registration attempt with existing email","service":"user-management-system","timestamp":"2025-08-13T11:41:30.141Z"}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:30.291Z","userId":75}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:30.354Z","userId":75}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:30.441Z","userId":76}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with invalid password","service":"user-management-system","timestamp":"2025-08-13T11:41:30.498Z","userId":76}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:30.585Z","userId":77}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:30.680Z","userId":78}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Access attempt without token","path":"/78","service":"user-management-system","timestamp":"2025-08-13T11:41:30.688Z"}
+{"email":"updatetest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:30.781Z","userId":79}
+{"changes":{"name":"Updated Name"},"ip":"::ffff:127.0.0.1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T11:41:30.815Z","updatedBy":79,"userId":79}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:30.945Z","userId":80}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:31.010Z","userId":81}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:31.144Z","userId":82}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:31.211Z","userId":83}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:31.350Z","userId":84}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:31.419Z","userId":85}
+{"assignedBy":84,"ip":"::ffff:127.0.0.1","level":"info","message":"Role assigned to user","roleId":2,"service":"user-management-system","timestamp":"2025-08-13T11:41:31.446Z","userId":85}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded for login attempts","service":"user-management-system","timestamp":"2025-08-13T11:41:31.530Z"}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:31.602Z","userId":87}
+{"email":"todelete@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:41:31.670Z","userId":88}
+{"error":"jwt malformed","ip":"::ffff:127.0.0.1","level":"error","message":"Token verification failed","service":"user-management-system","timestamp":"2025-08-13T11:41:31.676Z"}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:30.443Z","userId":89}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:30.594Z","userId":90}
+{"email":"todelete@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:30.728Z","userId":91}
+{"deletedBy":89,"ip":"::ffff:127.0.0.1","level":"info","message":"User deleted","service":"user-management-system","timestamp":"2025-08-13T11:42:30.760Z","userId":91}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:43.019Z","userId":92}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:43.222Z","userId":93}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Registration attempt with existing email","service":"user-management-system","timestamp":"2025-08-13T11:42:43.244Z"}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:43.377Z","userId":94}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:43.440Z","userId":94}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:43.531Z","userId":95}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with invalid password","service":"user-management-system","timestamp":"2025-08-13T11:42:43.583Z","userId":95}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:43.672Z","userId":96}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:43.771Z","userId":97}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Access attempt without token","path":"/97","service":"user-management-system","timestamp":"2025-08-13T11:42:43.778Z"}
+{"email":"updatetest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:43.882Z","userId":98}
+{"changes":{"name":"Updated Name"},"ip":"::ffff:127.0.0.1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T11:42:43.915Z","updatedBy":98,"userId":98}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:44.040Z","userId":99}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:44.108Z","userId":100}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:44.238Z","userId":101}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:44.306Z","userId":102}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:44.441Z","userId":103}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:44.508Z","userId":104}
+{"assignedBy":103,"ip":"::ffff:127.0.0.1","level":"info","message":"Role assigned to user","roleId":2,"service":"user-management-system","timestamp":"2025-08-13T11:42:44.534Z","userId":104}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded for login attempts","service":"user-management-system","timestamp":"2025-08-13T11:42:44.618Z"}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:44.683Z","userId":106}
+{"email":"todelete@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:42:44.750Z","userId":107}
+{"error":"jwt malformed","ip":"::ffff:127.0.0.1","level":"error","message":"Token verification failed","service":"user-management-system","timestamp":"2025-08-13T11:42:44.757Z"}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:25.198Z","userId":108}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:25.400Z","userId":109}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Registration attempt with existing email","service":"user-management-system","timestamp":"2025-08-13T11:43:25.413Z"}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:25.514Z","userId":110}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:25.565Z","userId":110}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:25.653Z","userId":111}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with invalid password","service":"user-management-system","timestamp":"2025-08-13T11:43:25.703Z","userId":111}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:25.793Z","userId":112}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:25.892Z","userId":113}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Access attempt without token","path":"/113","service":"user-management-system","timestamp":"2025-08-13T11:43:25.900Z"}
+{"email":"updatetest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:25.986Z","userId":114}
+{"changes":{"name":"Updated Name"},"ip":"::ffff:127.0.0.1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T11:43:26.014Z","updatedBy":114,"userId":114}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:26.151Z","userId":115}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:26.219Z","userId":116}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:26.360Z","userId":117}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:26.430Z","userId":118}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:26.569Z","userId":119}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:26.641Z","userId":120}
+{"assignedBy":119,"ip":"::ffff:127.0.0.1","level":"info","message":"Role assigned to user","roleId":2,"service":"user-management-system","timestamp":"2025-08-13T11:43:26.667Z","userId":120}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded for login attempts","service":"user-management-system","timestamp":"2025-08-13T11:43:26.752Z"}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:26.823Z","userId":122}
+{"email":"todelete@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:43:26.891Z","userId":123}
+{"error":"jwt malformed","ip":"::ffff:127.0.0.1","level":"error","message":"Token verification failed","service":"user-management-system","timestamp":"2025-08-13T11:43:26.898Z"}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:52.414Z","userId":124}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:52.609Z","userId":125}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Registration attempt with existing email","service":"user-management-system","timestamp":"2025-08-13T11:44:52.620Z"}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:52.711Z","userId":126}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:52.763Z","userId":126}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:52.848Z","userId":127}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with invalid password","service":"user-management-system","timestamp":"2025-08-13T11:44:52.900Z","userId":127}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:52.988Z","userId":128}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:53.088Z","userId":129}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Access attempt without token","path":"/129","service":"user-management-system","timestamp":"2025-08-13T11:44:53.096Z"}
+{"email":"updatetest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:53.190Z","userId":130}
+{"changes":{"name":"Updated Name"},"ip":"::ffff:127.0.0.1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T11:44:53.215Z","updatedBy":130,"userId":130}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:53.348Z","userId":131}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:53.418Z","userId":132}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:53.554Z","userId":133}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:53.623Z","userId":134}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:53.756Z","userId":135}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:53.824Z","userId":136}
+{"assignedBy":135,"ip":"::ffff:127.0.0.1","level":"info","message":"Role assigned to user","roleId":2,"service":"user-management-system","timestamp":"2025-08-13T11:44:53.850Z","userId":136}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:53.980Z","userId":137}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:54.049Z","userId":138}
+{"email":"todelete@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:44:54.114Z","userId":139}
+{"deletedBy":137,"ip":"::ffff:127.0.0.1","level":"info","message":"User deleted","service":"user-management-system","timestamp":"2025-08-13T11:44:54.136Z","userId":139}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:15.987Z","userId":140}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:16.175Z","userId":141}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Registration attempt with existing email","service":"user-management-system","timestamp":"2025-08-13T11:45:16.209Z"}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:16.354Z","userId":142}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:16.453Z","userId":142}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:16.555Z","userId":143}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with invalid password","service":"user-management-system","timestamp":"2025-08-13T11:45:16.607Z","userId":143}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:16.692Z","userId":144}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:16.789Z","userId":145}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Access attempt without token","path":"/145","service":"user-management-system","timestamp":"2025-08-13T11:45:16.796Z"}
+{"email":"updatetest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:16.884Z","userId":146}
+{"changes":{"name":"Updated Name"},"ip":"::ffff:127.0.0.1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T11:45:16.914Z","updatedBy":146,"userId":146}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:17.042Z","userId":147}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:17.111Z","userId":148}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:17.248Z","userId":149}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:17.314Z","userId":150}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:17.449Z","userId":151}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:17.521Z","userId":152}
+{"assignedBy":151,"ip":"::ffff:127.0.0.1","level":"info","message":"Role assigned to user","roleId":2,"service":"user-management-system","timestamp":"2025-08-13T11:45:17.548Z","userId":152}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:17.676Z","userId":153}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:17.743Z","userId":154}
+{"email":"todelete@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:45:17.812Z","userId":155}
+{"deletedBy":153,"ip":"::ffff:127.0.0.1","level":"info","message":"User deleted","service":"user-management-system","timestamp":"2025-08-13T11:45:17.837Z","userId":155}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:23.200Z","userId":156}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:23.399Z","userId":157}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Registration attempt with existing email","service":"user-management-system","timestamp":"2025-08-13T11:47:23.420Z"}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:23.564Z","userId":158}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:23.624Z","userId":158}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:23.717Z","userId":159}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with invalid password","service":"user-management-system","timestamp":"2025-08-13T11:47:23.769Z","userId":159}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:23.858Z","userId":160}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:23.958Z","userId":161}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Access attempt without token","path":"/161","service":"user-management-system","timestamp":"2025-08-13T11:47:23.964Z"}
+{"email":"updatetest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:24.074Z","userId":162}
+{"changes":{"name":"Updated Name"},"ip":"::ffff:127.0.0.1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T11:47:24.104Z","updatedBy":162,"userId":162}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:24.230Z","userId":163}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:24.298Z","userId":164}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:24.433Z","userId":165}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:24.501Z","userId":166}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:24.641Z","userId":167}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:24.710Z","userId":168}
+{"assignedBy":167,"ip":"::ffff:127.0.0.1","level":"info","message":"Role assigned to user","roleId":2,"service":"user-management-system","timestamp":"2025-08-13T11:47:24.737Z","userId":168}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:24.865Z","userId":169}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:24.931Z","userId":170}
+{"email":"todelete@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:47:24.996Z","userId":171}
+{"deletedBy":169,"ip":"::ffff:127.0.0.1","level":"info","message":"User deleted","service":"user-management-system","timestamp":"2025-08-13T11:47:25.018Z","userId":171}
+{"error":"jwt expired","ip":"::ffff:127.0.0.1","level":"error","message":"Token verification failed","service":"user-management-system","timestamp":"2025-08-13T11:49:06.698Z"}
+{"error":"invalid token","ip":"::ffff:127.0.0.1","level":"error","message":"Token verification failed","service":"user-management-system","timestamp":"2025-08-13T11:49:06.718Z"}
+{"error":"invalid signature","ip":"::ffff:127.0.0.1","level":"error","message":"Token verification failed","service":"user-management-system","timestamp":"2025-08-13T11:49:06.729Z"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Unauthorized access attempt","path":"/","requiredRoles":["admin"],"service":"user-management-system","timestamp":"2025-08-13T11:49:06.752Z","userId":173,"userRole":"user"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Unauthorized profile access attempt","service":"user-management-system","targetUserId":174,"timestamp":"2025-08-13T11:49:06.837Z","userId":173,"userRole":"user"}
+{"email":"test-1755085746865@test.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:49:06.932Z","userId":175}
+{"email":"strong-1755085746939@test.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:49:07.003Z","userId":176}
+{"email":"ratelimit@test.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with non-existent email","service":"user-management-system","timestamp":"2025-08-13T11:49:07.058Z"}
+{"email":"ratelimit@test.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with non-existent email","service":"user-management-system","timestamp":"2025-08-13T11:49:07.065Z"}
+{"email":"ratelimit@test.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with non-existent email","service":"user-management-system","timestamp":"2025-08-13T11:49:07.074Z"}
+{"email":"ratelimit@test.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with non-existent email","service":"user-management-system","timestamp":"2025-08-13T11:49:07.082Z"}
+{"email":"ratelimit@test.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with non-existent email","service":"user-management-system","timestamp":"2025-08-13T11:49:07.091Z"}
+{"email":"ratelimit@test.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with non-existent email","service":"user-management-system","timestamp":"2025-08-13T11:49:07.098Z"}
+{"email":"sensitive@test.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:49:07.184Z","userId":177}
+{"ip":"::1","level":"warn","message":"Invalid token - user not found","service":"user-management-system","timestamp":"2025-08-13T11:49:41.803Z","userId":2}
+{"email":"testuser@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:36.396Z","userId":178}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:36.595Z","userId":179}
+{"email":"duplicate@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Registration attempt with existing email","service":"user-management-system","timestamp":"2025-08-13T11:50:36.611Z"}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:36.760Z","userId":180}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:36.846Z","userId":180}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:36.939Z","userId":181}
+{"email":"logintest@example.com","ip":"::ffff:127.0.0.1","level":"warn","message":"Login attempt with invalid password","service":"user-management-system","timestamp":"2025-08-13T11:50:36.994Z","userId":181}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:37.089Z","userId":182}
+{"email":"profiletest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:37.189Z","userId":183}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Access attempt without token","path":"/183","service":"user-management-system","timestamp":"2025-08-13T11:50:37.197Z"}
+{"email":"updatetest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:37.284Z","userId":184}
+{"changes":{"name":"Updated Name"},"ip":"::ffff:127.0.0.1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T11:50:37.314Z","updatedBy":184,"userId":184}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:37.443Z","userId":185}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:37.513Z","userId":186}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:37.647Z","userId":187}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:37.715Z","userId":188}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:37.852Z","userId":189}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:37.918Z","userId":190}
+{"assignedBy":189,"ip":"::ffff:127.0.0.1","level":"info","message":"Role assigned to user","roleId":2,"service":"user-management-system","timestamp":"2025-08-13T11:50:37.943Z","userId":190}
+{"email":"admintest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:38.070Z","userId":191}
+{"email":"regulartest@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:38.137Z","userId":192}
+{"email":"todelete@example.com","ip":"::ffff:127.0.0.1","level":"info","message":"User registered successfully","service":"user-management-system","timestamp":"2025-08-13T11:50:38.204Z","userId":193}
+{"deletedBy":191,"ip":"::ffff:127.0.0.1","level":"info","message":"User deleted","service":"user-management-system","timestamp":"2025-08-13T11:50:38.227Z","userId":193}
+{"email":"admin@example.com","ip":"::1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T12:02:08.343Z","userId":194}
+{"ip":"::1","level":"warn","message":"Invalid token - user not found","service":"user-management-system","timestamp":"2025-08-13T12:03:23.707Z","userId":2}
+{"assignedBy":194,"ip":"::1","level":"info","message":"Role assigned to user","roleId":2,"service":"user-management-system","timestamp":"2025-08-13T12:03:28.165Z","userId":3}
+{"email":"rajeshagarwal@exmaple.com","ip":"::1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T12:04:06.716Z","userId":3}
+{"ip":"::1","level":"warn","message":"Unauthorized access attempt","path":"/3/assign-role","requiredRoles":["admin"],"service":"user-management-system","timestamp":"2025-08-13T12:04:16.083Z","userId":3,"userRole":"editor"}
+{"assignedBy":194,"ip":"::1","level":"info","message":"Role assigned to user","roleId":2,"service":"user-management-system","timestamp":"2025-08-13T12:04:17.644Z","userId":3}
+{"changes":{"name":"Jane Doe","role_id":2},"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:05:31.070Z","updatedBy":3,"userId":3}
+{"changes":{"name":"Jane Doe","role_id":1},"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:05:37.907Z","updatedBy":3,"userId":3}
+{"changes":{"name":"Jane Doe","role_id":3},"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:05:42.360Z","updatedBy":3,"userId":3}
+{"changes":{"name":"Jane Doe","role_id":2},"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:08:33.525Z","updatedBy":3,"userId":3}
+{"changes":{"name":"Jane Doe","role_id":2},"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:08:54.790Z","updatedBy":3,"userId":3}
+{"changes":{"name":"Jane Doe","role_id":3},"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:08:59.858Z","updatedBy":3,"userId":3}
+{"changes":{"name":"Jane Doe","role_id":3},"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:12:55.351Z","updatedBy":3,"userId":3}
+{"changes":{"name":"Jane Doe","role_id":2},"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:12:59.629Z","updatedBy":3,"userId":3}
+{"changes":{"name":"Jane Doe","role_id":3},"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:23:07.559Z","updatedBy":3,"userId":3}
+{"ip":"::1","level":"warn","message":"Unauthorized access attempt","path":"/","requiredRoles":["admin"],"service":"user-management-system","timestamp":"2025-08-13T12:23:18.263Z","userId":3,"userRole":"user"}
+{"changes":{"name":"Jane Doe","role_id":3},"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:23:24.525Z","updatedBy":3,"userId":3}
+{"changes":{"name":"Jane Doe","role_id":3},"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:24:16.761Z","updatedBy":3,"userId":3}
+{"changes":{"name":"Jane Doe","role_id":2},"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:24:31.722Z","updatedBy":3,"userId":3}
+{"changes":{"name":"Jane Doe","role_id":3},"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:25:05.652Z","updatedBy":3,"userId":3}
+{"level":"info","message":"Server started on port 3000","service":"user-management-system","timestamp":"2025-08-13T12:25:16.499Z"}
+{"fieldsUpdated":["name","role_id"],"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:25:20.709Z","updatedBy":3,"userId":3}
+{"UserForUpdate":{"created_at":"2025-08-13 11:21:35","email":"rajeshagarwal@exmaple.com","id":3,"name":"Jane Doe","role_id":3,"role_name":"user","updated_at":"2025-08-13 12:25:20"},"level":"info","message":"request User for update profile","requestingUser":{"created_at":"2025-08-13 11:21:35","email":"rajeshagarwal@exmaple.com","id":3,"name":"Jane Doe","role_id":3,"role_name":"user","updated_at":"2025-08-13 12:25:20"},"service":"user-management-system","timestamp":"2025-08-13T12:25:22.090Z"}
+{"ip":"::1","level":"warn","message":"Non-admin attempted to update role_id","requestedRoleId":2,"requestingUserId":3,"requestingUserRole":"user","service":"user-management-system","timestamp":"2025-08-13T12:25:22.090Z","userId":3}
+{"fieldsUpdated":["name","role_id"],"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:25:26.722Z","updatedBy":3,"userId":3}
+{"UserForUpdate":{"created_at":"2025-08-13 11:21:35","email":"rajeshagarwal@exmaple.com","id":3,"name":"Jane Doe","role_id":3,"role_name":"user","updated_at":"2025-08-13 12:25:26"},"level":"info","message":"request User for update profile","requestingUser":{"created_at":"2025-08-13 11:21:35","email":"rajeshagarwal@exmaple.com","id":3,"name":"Jane Doe","role_id":3,"role_name":"user","updated_at":"2025-08-13 12:25:26"},"service":"user-management-system","timestamp":"2025-08-13T12:25:28.614Z"}
+{"ip":"::1","level":"warn","message":"Non-admin attempted to update role_id","requestedRoleId":2,"requestingUserId":3,"requestingUserRole":"user","service":"user-management-system","timestamp":"2025-08-13T12:25:28.614Z","userId":3}
+{"fieldsUpdated":["name","role_id"],"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:25:30.391Z","updatedBy":3,"userId":3}
+{"UserForUpdate":{"created_at":"2025-08-13 11:21:35","email":"rajeshagarwal@exmaple.com","id":3,"name":"Jane Doe","role_id":3,"role_name":"user","updated_at":"2025-08-13 12:25:30"},"level":"info","message":"request User for update profile","requestingUser":{"created_at":"2025-08-13 11:21:35","email":"rajeshagarwal@exmaple.com","id":3,"name":"Jane Doe","role_id":3,"role_name":"user","updated_at":"2025-08-13 12:25:30"},"service":"user-management-system","timestamp":"2025-08-13T12:25:32.180Z"}
+{"ip":"::1","level":"warn","message":"Non-admin attempted to update role_id","requestedRoleId":2,"requestingUserId":3,"requestingUserRole":"user","service":"user-management-system","timestamp":"2025-08-13T12:25:32.180Z","userId":3}
+{"fieldsUpdated":["name","role_id"],"ip":"::1","level":"info","message":"User profile updated","service":"user-management-system","timestamp":"2025-08-13T12:25:33.803Z","updatedBy":3,"userId":3}
+{"UserForUpdate":{"created_at":"2025-08-13 11:21:35","email":"rajeshagarwal@exmaple.com","id":3,"name":"Jane Doe","role_id":3,"role_name":"user","updated_at":"2025-08-13 12:25:33"},"level":"info","message":"request User for update profile","requestingUser":{"created_at":"2025-08-13 11:21:35","email":"rajeshagarwal@exmaple.com","id":3,"name":"Jane Doe","role_id":3,"role_name":"user","updated_at":"2025-08-13 12:25:33"},"service":"user-management-system","timestamp":"2025-08-13T12:25:35.058Z"}
+{"ip":"::1","level":"warn","message":"Non-admin attempted to update role_id","requestedRoleId":2,"requestingUserId":3,"requestingUserRole":"user","service":"user-management-system","timestamp":"2025-08-13T12:25:35.058Z","userId":3}
+{"ip":"::1","level":"warn","message":"Unauthorized access attempt","path":"/3","requiredRoles":["admin"],"service":"user-management-system","timestamp":"2025-08-13T12:26:42.169Z","userId":3,"userRole":"user"}
+{"email":"admin@example.com","ip":"::1","level":"info","message":"User logged in successfully","service":"user-management-system","timestamp":"2025-08-13T12:26:58.328Z","userId":194}
+{"deletedBy":194,"ip":"::1","level":"info","message":"User deleted","service":"user-management-system","timestamp":"2025-08-13T12:27:06.851Z","userId":3}
+{"ip":"::1","level":"warn","message":"Invalid token - user not found","service":"user-management-system","timestamp":"2025-08-13T12:27:10.177Z","userId":3}
