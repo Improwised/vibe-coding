@@ -1,0 +1,73 @@
+# User Management System - Project Prompts History
+
+## Initial Setup Prompts
+
+### 1. Project Creation
+"Create a user management system with roles and permissions using Node.js, Express, and SQLite"
+
+### 2. Database Schema
+"Create database schema for users, roles, and permissions with proper relationships"
+
+### 3. Authentication System
+"Implement JWT-based authentication with login and registration endpoints"
+
+### 4. Role-Based Access Control
+"Add role-based authorization with admin, user, and moderator roles"
+
+### 5. API Endpoints
+"Create RESTful API endpoints for user CRUD operations and role management"
+
+## Security Enhancement Prompts
+
+### 6. Security Features
+"Add security middleware: rate limiting, input validation, and error handling"
+
+### 7. Password Security
+"Implement bcrypt password hashing and secure password storage"
+
+### 8. Token Security
+"Add JWT token expiration and refresh token mechanism"
+
+### 9. Input Validation
+"Add comprehensive input validation for all API endpoints using express-validator"
+
+### 10. Security Headers
+"Add security headers using helmet middleware"
+
+## Feature Enhancement Prompts
+
+### 11. Logging System
+"Add comprehensive logging with winston for all API activities"
+
+### 12. Error Handling
+"Implement global error handling with proper HTTP status codes"
+
+### 13. API Documentation
+"Create detailed API documentation with examples for all endpoints"
+
+### 14. Testing Suite
+"Add unit tests for all API endpoints using Jest and Supertest"
+
+### 15. Admin Features
+"Add admin-only endpoints for user management and role assignment"
+
+## Development Workflow Prompts
+
+### 16. Pre-commit Hooks
+"Please implement pre-commit hooks like linter, Prettier"
+
+### 17. Code Quality
+"Implement only one which is best" (referring to pre-commit hooks)
+
+## Security Fix Prompts
+
+### 18. Role Update Security
+"In update usr profile if provided token is not associate with admin role and payload body have update for role_id then give me error message that only admin can update the role"
+
+### 19. Profile Update Enhancement
+"Also update that in update profile changes are made up of any field like name, email, password, role_id(admin_only)"
+
+## Documentation Prompts
+
+### 20. Prompt History
+"For today for this project which prompts i give make a list of that prompts store in prompt.txt file"
